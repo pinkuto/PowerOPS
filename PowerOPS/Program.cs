@@ -200,7 +200,7 @@ namespace PowerOPS
                             pipeline.Commands.AddScript(PowerOPS.Empire_InvokePSExec());
                             pipeline.Commands.AddScript(PowerOPS.Empire_InvokeSshCommand());
                             pipeline.Commands.AddScript(PowerOPS.InvokeMimikittenz());
-                            pipeline.Commands.AddScript(PowerOPS.PowerUpSQL());
+                            //pipeline.Commands.AddScript(PowerOPS.PowerUpSQL());
                             pipeline.Commands.AddScript(PowerOPS.InvokeSMBAutoBrute());
                             pipeline.Commands.AddScript(command);
                             pipeline.Commands.Add("Out-String");
